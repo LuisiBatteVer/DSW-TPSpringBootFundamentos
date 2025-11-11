@@ -1,4 +1,5 @@
 #Alumna: BATTELLA VERCESI, LUISINA
+# Legajo: 47494
 # 📝 Sistema de Gestión de Tareas - Fundamentos de Spring Boot
 
 Trabajo Práctico
@@ -63,6 +64,13 @@ DEV: <img width="886" height="471" alt="image" src="https://github.com/user-atta
 PORD:
 ---
 ## CONCLUSIONES
+
+Este trabajo sirvió para entender cómo funciona Spring Boot en la práctica. Lo más importante fue aprender a usar la Inyección de Dependencias por constructor, que básicamente es dejar que Spring "conecte los cables" (como el Repositorio dentro del Servicio) por nosotros.
+
+También quedó claro cómo usar los estereotipos (@Service, @Repository) para ordenar el proyecto y decirle a Spring qué hace cada clase.
+
+Finalmente, fue muy útil ver cómo usar @Value y los Perfiles (@Profile) para cambiar el comportamiento de la app (como el límite de tareas o los mensajes) simplemente cambiando el entorno de dev a prod, sin tocar el código Java.
+
 ### 📊 Comparativa de Perfiles: dev vs. prod
 
 | Característica | ✅ Perfil `dev` (Prueba 1) | 🚀 Perfil `prod` (Prueba 2) |
