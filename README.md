@@ -1,4 +1,4 @@
-#Alumna: BATTELLA VERCESI, LUISINA
+# Alumna: BATTELLA VERCESI, LUISINA
 # Legajo: 47494
 # 📝 Sistema de Gestión de Tareas - Fundamentos de Spring Boot
 
